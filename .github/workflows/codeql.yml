@@ -45,7 +45,7 @@ jobs:
       matrix:
         include:
         - language: c-cpp
-          build-mode: autobuild
+          build-mode: manual
         - language: go
           build-mode: autobuild
         - language: java-kotlin
